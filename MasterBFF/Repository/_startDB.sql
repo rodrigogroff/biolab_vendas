@@ -1,0 +1,3 @@
+﻿
+INSERT INTO public."Company"( id, "stName", "stContact", "stContactEmail", "stCountry", "stWebsite") VALUES (1, 'Teste', '                          ', '                 ', '          ', '              ');
+INSERT INTO public."User"( id, "fkCompany", "stEmail", "stPassword", "bActive", "bAdmin", "bManager", "stName", "dtJoin", "dtLastLogin") VALUES (1, 1, 'rodrigo.groff@gmail.com','142536',true,true,true,'Rodrigo Groff', '2022-01-01','2022-01-01');
