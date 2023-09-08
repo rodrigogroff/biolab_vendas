@@ -8,6 +8,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterBiolabBFF", "MasterBF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cluster_UI_Stresser", "Cluster_UI_Stresser\Cluster_UI_Stresser.csproj", "{C3B4476E-F5BC-4DC3-8767-F3761945F7E1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StresserNanoBiolab", "StresserNanoBiolab\StresserNanoBiolab.csproj", "{8435C546-1AE9-42BD-B9F3-4B0B52FA6AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +35,17 @@ Global
 		{C3B4476E-F5BC-4DC3-8767-F3761945F7E1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C3B4476E-F5BC-4DC3-8767-F3761945F7E1}.Testing|Any CPU.ActiveCfg = Debug|Any CPU
 		{C3B4476E-F5BC-4DC3-8767-F3761945F7E1}.Testing|Any CPU.Build.0 = Debug|Any CPU
+		{8435C546-1AE9-42BD-B9F3-4B0B52FA6AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8435C546-1AE9-42BD-B9F3-4B0B52FA6AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8435C546-1AE9-42BD-B9F3-4B0B52FA6AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8435C546-1AE9-42BD-B9F3-4B0B52FA6AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8435C546-1AE9-42BD-B9F3-4B0B52FA6AE6}.Testing|Any CPU.ActiveCfg = Debug|Any CPU
+		{8435C546-1AE9-42BD-B9F3-4B0B52FA6AE6}.Testing|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B22A4691-9B08-4E30-8D11-705F3A98BD0B}
 	EndGlobalSection
 EndGlobal
